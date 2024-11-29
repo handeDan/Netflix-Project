@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Netflix</title> <!-- netflix logosu olsun!!! -->
+    <title>WitFlix</title> <!-- witflix logosu olsun?? -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
-        <img src="file:///C:/Projects/Netflix-Project/img/WitFlix.svg" alt="WitFlix"/> <!-- logo için -->
+        <img class="logo" src="file:///C:/Projects/Netflix-Project/img/WitFlix.svg" alt="WitFlix"/> <!-- logo için -->
         <nav>
             <a href="/">Topic 1</a>
             <a href="/">Topic 2</a>
             <a href="/">Topic 3</a>
             <a href="/">Topic 4</a>
         </nav>
-        <div>
-            <input></input> <!-- search kutusu için -->
-            <img /> <!-- bildirim iconu için -->
-            <img /> <!-- profil iconu için -->
+        <div class="header-icons">
+             <!-- search kutusu için -->
+             <div class="search-input">
+                <input class="input-field" type="text" placeholder="Search" name="search">
+                <i class="fa fa-search"></i>
+            </div>
+             <!-- bildirim iconu için -->
+            <div>
+                <i class="fa fa-bell"></i>
+            </div>
+            <!-- profil iconu için -->
+            <div>
+                <img src="img/profil iconu.jpg" class="profil-icon"/>
+            </div>
         </div>
     </header>
     <section class="main-section">
