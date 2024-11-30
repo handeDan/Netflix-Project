@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-        <img class="logo" src="img/WitFlix.svg" alt="WitFlix"/> <!-- logo için -->
+        <a href="/"><img class="logo" src="img/WitFlix.svg" alt="WitFlix"/></a> <!-- logo için -->
         <nav>
             <a href="/">Topic 1</a>
             <a href="/">Topic 2</a>
@@ -28,7 +28,7 @@
             </div>
             <!-- profil iconu için -->
             <div>
-                <img src="img/profil iconu.jpg" class="profil-icon"/>
+                <a href="/"><img src="img/profil iconu.jpg" class="profil-icon"/></a>
             </div>
         </div>
     </header>
@@ -48,7 +48,7 @@
                     <span class="maturity-rating">16+</span>
                     <span class="duration">2 h 21 m</span>
                 </div>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <p class="hakkinda">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
                 </p>
                 <ul class="movie-details">
@@ -165,29 +165,42 @@
             </div>
         </div>        
     </section>
-    <footer>
-        <div class="footer">
-            <p>Term of Use</p>
-            <p>Privacy-Policy</p>
-            <p>FAQ</p>
-            <p>Watch List</p>
+    
+    <footer class="footer">
+	    <div class="alt">
+		    <nav>
+			    <a href=""><span>Term of Use</span></a>
+                <a href=""><span>Privacy-Policy</span></a>
+                <a href=""><span>FAQ</span></a>
+                <a href=""><span>Watch List</span></a>
+		    </nav>
+		    <p class="copyright">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</p>
         </div>
-        <p>Altbilgi burada yer alacak...Altbilgi burada yer alacak...Altbilgi burada yer alacak...</p>
-        <div>
-            <p>Follow Us</p>
-            <div class="footer-images">
-                <img /> <!-- facebook iconu için -->
-                <img /> <!-- youtube iconu için -->
-                <img /> <!-- twitter iconu için -->
-            </div>
-        </div>
-        <div>
-            <p>Apps</p>
-            <div class="footer-images">
-                <img /> <!-- appstore iconu için -->
-                <img /> <!-- googleplay iconu için -->
-            </div>
-        </div>
+	    <div class="follow-us">
+		    <p>Follow Us</p>
+		    <div class="follow-us-icons">
+			    <a href="/">
+				    <img src="img/facebook-icon.svg"/>
+			    </a> <!-- facebook iconu için <i class="fa fa-play"></i>-->
+			    <a href="/">
+				    <img src="img/youtube-icon.svg"/>
+			    </a> <!-- youtube iconu için -->
+			    <a href="/">
+				    <img src="img/twitter-icon.svg"/>
+			    </a> <!-- twitter iconu için -->
+	        </div>
+	    </div>
+	    <div class="apps">
+		    <p>Apps</p>
+		    <div class="apps-icons">
+			    <a href="/">
+				    <img src="img/appstore-icon.svg"/>
+			    </a> <!-- appstore iconu için -->
+			    <a href="/">
+				    <img src="img/googleplay-icon.svg"/>
+			    </a> <!-- googleplay iconu için -->
+		    </div>
+	    </div>
     </footer>
   </body>
 </html>
