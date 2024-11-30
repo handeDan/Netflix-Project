@@ -23,6 +23,7 @@ p{
    width: 100%;
    max-height: 50px;
    margin: 15px 0;
+   min-width: 120px;
 }
 
 header nav {
@@ -37,7 +38,6 @@ header nav a {
     text-wrap: nowrap;
     color: black;
     margin: 10px;
-    
 }
 .header-icons {
     display: flex;
@@ -46,10 +46,8 @@ header nav a {
     margin: 0 20px;
 }
 .search-input {
-display: flex;
-justify-content: flex-end;
-
-
+    display: flex;
+    justify-content: flex-end;
 }
 .input-field {
     width: 100%;
@@ -60,7 +58,6 @@ justify-content: flex-end;
     margin:2px;
     color: #DCDCDC;
 }
-
 .profil-icon {
     border: 2px solid black;
     width: 30px;
@@ -180,6 +177,11 @@ ul {
     max-width: 25px;
     border-radius: 5px;
  }
+ .linkler{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+ }
  .follow-us p {
     margin-top: 0;
  }
@@ -193,4 +195,69 @@ ul {
  }
  .apps p {
     margin-top: 0;
+ }
+
+  /* MEDIA QUERY KISMI:*/
+
+ @media(max-width: 768px) {
+    body {
+        max-width: unset;
+        width: fit-content;
+    }
+    .logo {
+       margin-left:10px;
+       width: 50%;
+    }
+    header nav {
+        position: relative;
+        top: 40px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    header nav a {
+        background: white;
+        margin: unset;
+        padding: 10px;
+    }
+    .header-icons {
+        margin: unset;
+    }
+    .input-field {
+        width: 70px;
+        margin-right: 0;
+    }
+    .hero-content {
+        padding: 20px 30% 20px 15px;
+        margin:22px;
+       
+    }
+    .hero-content p {
+        font-size: 20px;
+    }
+    .suggestion-row {
+       margin:10px;
+
+    }
+    .suggestion-title h4 {
+        margin-top: 0;
+    }
+    .suggestion-content {
+        gap: 5px;
+    }
+    .footer {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .alt {
+        max-width: 100%;
+        margin-top: 35px;
+    }
+  .linkler {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
  }
