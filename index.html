@@ -1,208 +1,276 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>WitFlix</title> <!-- witflix logosu olsun?? -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <header>
-        <a href="/"><img class="logo" src="img/WitFlix.svg" alt="WitFlix"/></a> <!-- logo için -->
-        <nav>
-            <a href="/">Topic 1</a>
-            <a href="/">Topic 2</a>
-            <a href="/">Topic 3</a>
-            <a href="/">Topic 4</a>
-        </nav>
-        <div class="header-icons">
-             <!-- search kutusu için -->
-             <div class="search-input">
-                <input class="input-field" type="text" placeholder="Search" name="search">
-                <i class="fa fa-search"></i>
-            </div>
-             <!-- bildirim iconu için -->
-            <div>
-                <i class="fa fa-bell"></i>
-            </div>
-            <!-- profil iconu için -->
-            <div>
-                <a href="/"><img src="img/profil iconu.jpg" class="profil-icon"/></a>
-            </div>
-        </div>
-    </header>
-    <main class="main-section">
-        <div class="hero-content">
-            <h1>MOVIE NAME</h1>
-            <div class="movie-info">
-                <div class="user-ratings">
-                    <span class="user-rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </span>
-                    <span class="imdb-rating">7.3 IMDB</span>
-                    <span class="maturity-rating">16+</span>
-                    <span class="duration">2 h 21 m</span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>WitFlix</title> <!-- witflix logosu olsun?? -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="/"><img class="logo" src="img/witFlix.svg"
+                    alt="WitFlix" /></a> <!-- logo için -->
+            <nav>
+                <a href="/">Topic 1</a>
+                <a href="/">Topic 2</a>
+                <a href="/">Topic 3</a>
+                <a href="/">Topic 4</a>
+            </nav>
+            <div class="header-icons">
+                <!-- search kutusu için -->
+                <div class="search-input">
+                    <input class="input-search" type="text" placeholder="Search"
+                        name="search">
+                    <i class="fa fa-search"></i>
                 </div>
-                <p class="hakkinda">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <!-- bildirim iconu için -->
+                <div>
+                    <i class="fa fa-bell"></i>
+                </div>
+                <!-- profil iconu için -->
+                <div>
+                    <a href="/"><img src="img/profil-iconu.jpg"
+                            class="profil-icon" /></a>
+                </div>
+            </div>
+        </header>
+        <main class="main-section">
+            <div class="hero-content">
+                <h1>MOVIE NAME</h1>
+                <div class="movie-info">
+                    <div class="user-ratings">
+                        <span class="user-rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </span>
+                        <span class="imdb-rating">7.3 IMDB</span>
+                        <span class="maturity-rating">16+</span>
+                        <span class="duration">2 h 21 m</span>
+                    </div>
+                    <p class="hakkinda">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and
+                        scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and
+                        more recently with desktop publishing software like
+                        Aldus PageMaker including versions of Lorem Ipsum.
 
-                </p>
-                <ul class="movie-details">
-                    <li class="bold-texts"><span class="red-texts">Starring:</span> Lorem Ipsum, Lorem Piksum</li>
-                    <li class="bold-texts"><span class="red-texts">Genre:</span> Lorem Ipsum, Lorem Piksum</li>
-                    <li class="bold-texts"><span class="red-texts">Tags:</span> Lorem Ipsum, Lorem Piksum</li>
-                </ul>
+                    </p>
+                    <ul class="movie-details">
+                        <li class="bold-texts"><span
+                                class="red-texts">Starring:</span> Lorem Ipsum,
+                            Lorem Piksum</li>
+                        <li class="bold-texts"><span
+                                class="red-texts">Genre:</span> Lorem Ipsum,
+                            Lorem Piksum</li>
+                        <li class="bold-texts"><span
+                                class="red-texts">Tags:</span> Lorem Ipsum,
+                            Lorem Piksum</li>
+                    </ul>
                 </div>
-            <div class="btn"> <!-- play now butonu için -->
-                <i class="fa fa-play"></i>
-                <span>Play Now</span>
-            </div>  
-        </div>
-    </main>
-    <section class="movies-section">
-        <div class="suggestion-row">
-            <div class="suggestion-title">
-                <h4>Popular Movies</h4>
-                <h4>View All</h4>
+                <div class="btn"> <!-- play now butonu için -->
+                    <i class="fa fa-play"></i>
+                    <span>Play Now</span>
+                </div>
             </div>
-            <div class="suggestion-content"> <!-- her bir satır grubu için -->
-                <div class="suggestion-item">  <!-- satır içindeki movie grupları için (her satırda 3 adet var) -->
-                    <div class="suggestion-item-content">  <!-- her movie grubu için -->
-                        <h1>MOVIE NAME</h1>
-                        <div class="suggestion-details"> <!-- yaş ve saat bilgisi için -->
-                            <span class="maturity-rating">16+</span>
-                            <span class="duration">2 h 21 m</span>
-                        </div> 
-                        <br/>
-                        <div class="btn">  <!-- play now butonu için -->
-                            <i class="fa fa-play"></i>
-                            <span>Play Now</span>
+        </main>
+        <section class="movies-section">
+            <div class="suggestion-row">
+                <div class="suggestion-title">
+                    <h4>Popular Movies</h4>
+                    <h4 class="view-all">View All</h4>
+                </div>
+                <div class="suggestion-content">
+                    <!-- her bir satır grubu için -->
+                    <div class="suggestion-item">
+                        <!-- satır içindeki movie grupları için (her satırda 3 adet var) -->
+                        <div class="suggestion-item-content">
+                            <!-- her movie grubu için -->
+                            <h1>MOVIE NAME</h1>
+                            <div class="suggestion-details">
+                                <!-- yaş ve saat bilgisi için -->
+                                <span class="maturity-rating">16+</span>
+                                <span class="duration">2 h 21 m</span>
+                            </div>
+                            <br />
+                            <div class="btn"> <!-- play now butonu için -->
+                                <i class="fa fa-play"></i>
+                                <span>Play Now</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestion-item">
+                        <div class="suggestion-item-content">
+                            <h1>MOVIE NAME</h1>
+                            <div class="suggestion-details">
+                                <span class="maturity-rating">16+</span>
+                                <span class="duration">2 h 21 m</span>
+                            </div>
+                            <br />
+                            <div class="btn">
+                                <i class="fa fa-play"></i>
+                                <span>Play Now</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestion-item">
+                        <div class="suggestion-item-content">
+                            <h1>MOVIE NAME</h1>
+                            <div class="suggestion-details">
+                                <span class="maturity-rating">16+</span>
+                                <span class="duration">2 h 21 m</span>
+                            </div>
+                            <br />
+                            <div class="btn">
+                                <i class="fa fa-play"></i>
+                                <span>Play Now</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestion-item">
+                        <div class="suggestion-item-content">
+                            <h1>MOVIE NAME</h1>
+                            <div class="suggestion-details">
+                                <span class="maturity-rating">16+</span>
+                                <span class="duration">2 h 21 m</span>
+                            </div>
+                            <br />
+                            <div class="btn">
+                                <i class="fa fa-play"></i>
+                                <span>Play Now</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="suggestion-item">
-                    <div class="suggestion-item-content">
-                        <h1>MOVIE NAME</h1>
-                        <div class="suggestion-details">
-                            <span class="maturity-rating">16+</span>
-                            <span class="duration">2 h 21 m</span>
-                        </div>
-                        <br/>
-                        <div class="btn">
-                            <i class="fa fa-play"></i>
-                            <span>Play Now</span>
+
+            </div>
+            <br />
+            <div class="suggestion-row">
+                <div class="suggestion-title">
+                    <h4>Recommended for You</h4>
+                    <h4 class="view-all">View All</h4>
+                </div>
+                <div class="suggestion-content">
+                    <!-- her bir satır grubu için -->
+                    <div class="suggestion-item">
+                        <!-- satır içindeki movie grupları için (her satırda 3 adet var) -->
+                        <div class="suggestion-item-content">
+                            <!-- her movie grubu için -->
+                            <h1>MOVIE NAME</h1>
+                            <div class="suggestion-details">
+                                <!-- yaş ve saat bilgisi için -->
+                                <span class="maturity-rating">16+</span>
+                                <span class="duration">2 h 21 m</span>
+                            </div>
+                            <br />
+                            <div class="btn"> <!-- play now butonu için -->
+                                <i class="fa fa-play"></i>
+                                <span>Play Now</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="suggestion-item">
-                    <div class="suggestion-item-content">
-                        <h1>MOVIE NAME</h1>
-                        <div class="suggestion-details">
-                            <span class="maturity-rating">16+</span>
-                            <span class="duration">2 h 21 m</span>
+                    <div class="suggestion-item">
+                        <div class="suggestion-item-content">
+                            <h1>MOVIE NAME</h1>
+                            <div class="suggestion-details">
+                                <span class="maturity-rating">16+</span>
+                                <span class="duration">2 h 21 m</span>
+                            </div>
+                            <br />
+                            <div class="btn">
+                                <i class="fa fa-play"></i>
+                                <span>Play Now</span>
+                            </div>
                         </div>
-                        <br/>
-                        <div class="btn">
-                            <i class="fa fa-play"></i>
-                            <span>Play Now</span>
+                    </div>
+                    <div class="suggestion-item">
+                        <div class="suggestion-item-content">
+                            <h1>MOVIE NAME</h1>
+                            <div class="suggestion-details">
+                                <span class="maturity-rating">16+</span>
+                                <span class="duration">2 h 21 m</span>
+                            </div>
+                            <br />
+                            <div class="btn">
+                                <i class="fa fa-play"></i>
+                                <span>Play Now</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="suggestion-item">
+                        <div class="suggestion-item-content">
+                            <h1>MOVIE NAME</h1>
+                            <div class="suggestion-details">
+                                <span class="maturity-rating">16+</span>
+                                <span class="duration">2 h 21 m</span>
+                            </div>
+                            <br />
+                            <div class="btn">
+                                <i class="fa fa-play"></i>
+                                <span>Play Now</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <br/>
-        <div class="suggestion-row">
-        <div class="suggestion-title">
-            <h4>Recommended for You</h4>
-            <h4>View All</h4>
-        </div>
-        <div class="suggestion-content"> <!-- her bir satır grubu için -->
-            <div class="suggestion-item">  <!-- satır içindeki movie grupları için (her satırda 3 adet var) -->
-                <div class="suggestion-item-content">  <!-- her movie grubu için -->
-                    <h1>MOVIE NAME</h1>
-                    <div class="suggestion-details"> <!-- yaş ve saat bilgisi için -->
-                        <span class="maturity-rating">16+</span>
-                        <span class="duration">2 h 21 m</span>
-                    </div> 
-                    <br/>
-                    <div class="btn">  <!-- play now butonu için -->
-                        <i class="fa fa-play"></i>
-                        <span>Play Now</span>
+        </section>
+
+        <footer class="footer">
+            <div class="alt">
+                <nav>
+                    <a href><span>Term of Use</span></a>
+                    <a href><span>Privacy-Policy</span></a>
+                    <a href><span>FAQ</span></a>
+                    <a href><span>Watch List</span></a>
+                </nav>
+                <p class="copyright">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to
+                    make a type specimen book. It has survived not only five
+                    centuries, but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the
+                    1960s with the release of Letraset sheets containing Lorem
+                    Ipsum passages, and more recently with desktop publishing
+                    software like Aldus PageMaker including versions of Lorem
+                    Ipsum..</p>
+            </div>
+            <div class="linkler">
+                <div class="follow-us">
+                    <p>Follow Us</p>
+                    <div class="follow-us-icons">
+                        <a href="/">
+                            <img src="img/facebook-icon.svg" />
+                        </a>
+                        <!-- facebook iconu için <i class="fa fa-play"></i>-->
+                        <a href="/">
+                            <img src="img/youtube-icon.svg" />
+                        </a> <!-- youtube iconu için -->
+                        <a href="/">
+                            <img src="img/twitter-icon.svg" />
+                        </a> <!-- twitter iconu için -->
                     </div>
                 </div>
-            </div>
-            <div class="suggestion-item">
-                <div class="suggestion-item-content">
-                    <h1>MOVIE NAME</h1>
-                    <div class="suggestion-details">
-                        <span class="maturity-rating">16+</span>
-                        <span class="duration">2 h 21 m</span>
+                <div class="apps">
+                    <p>Apps</p>
+                    <div class="apps-icons">
+                        <a href="/">
+                            <img src="img/appstore-icon.svg" />
+                        </a> <!-- appstore iconu için -->
+                        <a href="/">
+                            <img src="img/googleplay-icon.svg" />
+                        </a> <!-- googleplay iconu için -->
                     </div>
-                    <br/>
-                    <div class="btn">
-                        <i class="fa fa-play"></i>
-                        <span>Play Now</span>
-                    </div>
-                </div>
-            </div>
-            <div class="suggestion-item">
-                <div class="suggestion-item-content">
-                    <h1>MOVIE NAME</h1>
-                    <div class="suggestion-details">
-                        <span class="maturity-rating">16+</span>
-                        <span class="duration">2 h 21 m</span>
-                    </div>
-                    <br/>
-                    <div class="btn">
-                        <i class="fa fa-play"></i>
-                        <span>Play Now</span>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </div>
-    </section>
-    
-    <footer class="footer">
-	    <div class="alt">
-		    <nav>
-			    <a href=""><span>Term of Use</span></a>
-                <a href=""><span>Privacy-Policy</span></a>
-                <a href=""><span>FAQ</span></a>
-                <a href=""><span>Watch List</span></a>
-		    </nav>
-		    <p class="copyright">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</p>
-        </div>
-        <div class="linkler">
-	    <div class="follow-us">
-		    <p>Follow Us</p>
-		    <div class="follow-us-icons">
-			    <a href="/">
-				    <img src="img/facebook-icon.svg"/>
-			    </a> <!-- facebook iconu için <i class="fa fa-play"></i>-->
-			    <a href="/">
-				    <img src="img/youtube-icon.svg"/>
-			    </a> <!-- youtube iconu için -->
-			    <a href="/">
-				    <img src="img/twitter-icon.svg"/>
-			    </a> <!-- twitter iconu için -->
-	        </div>
-	    </div>
-	    <div class="apps">
-		    <p>Apps</p>
-		    <div class="apps-icons">
-			    <a href="/">
-				    <img src="img/appstore-icon.svg"/>
-			    </a> <!-- appstore iconu için -->
-			    <a href="/">
-				    <img src="img/googleplay-icon.svg"/>
-			    </a> <!-- googleplay iconu için -->
-		    </div>
-	    </div></div>
-    </footer>
-  </body>
+                </div></div>
+        </footer>
+    </body>
 </html>

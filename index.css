@@ -2,12 +2,13 @@ body {
     max-width:95%;
     margin: auto;
     box-sizing: border-box;
+    background-color: #332e2e;
 }
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     width: 100%;
     height: 75px;
     margin-top: 5px;
@@ -25,19 +26,30 @@ p{
    margin: 15px 0;
    min-width: 120px;
 }
-
+.fa-bell {
+    color: white;
+}
+.fa-bell:hover {
+    cursor: pointer;
+}
 header nav {
     display: flex;
     align-items: center;
     margin: 0 30px;
 }
-
 header nav a {
     font-size: 18px;
     text-decoration: none;
     text-wrap: nowrap;
     color: black;
     margin: 10px;
+    background: lightgray;
+    border-radius: 10px;
+    padding: 7px;
+    font-family: "Trebuchet MS";
+}
+header nav a:hover {
+    border-bottom: 4px solid red;
 }
 .header-icons {
     display: flex;
@@ -49,7 +61,7 @@ header nav a {
     display: flex;
     justify-content: flex-end;
 }
-.input-field {
+.input-search {
     width: 100%;
 }
 .fa-search {
@@ -66,14 +78,19 @@ header nav a {
     margin: 15px;
 }
 .main-section {
-    background: lightgray;
+    background-image: url("https://img.chip.com.tr/rcman/Cw820h461q95gm/storage/files/images/2024/03/02/kar-kardesligi-hd8u.jpg");
+    background-size: cover;
     margin: 10px 3px;
+    border-radius: 15px;
+    border-bottom: 5px solid #ff0000;
+    box-shadow: inset 17px 16px 20px 0px #00000036;
 }
 
 /* MAIN KISMI:*/
 
 .hero-content {
     padding: 20px 50% 20px 15px;
+    min-height: 600px;
 }
 .user-ratings span{
     margin-right: 10px;
@@ -97,7 +114,6 @@ ul {
 }
 .red-texts {
     color: red;
-
 }
 .bold-texts {
     font-weight: bold;
@@ -116,6 +132,10 @@ ul {
     font-size: 15px;
     font-weight: bold;
 }
+.btn:hover {
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+}
 .fa-play {
     margin-right: 10px;      
 }
@@ -123,7 +143,7 @@ ul {
 /* SECTION KISMI:*/
 
 .suggestion-title {
-    color: black;
+    color: white;
     display: flex;
     justify-content: space-between;
 }
@@ -133,15 +153,24 @@ ul {
 .suggestion-content {
     display: flex;
     justify-content: space-between;
-    
+    overflow-x: auto;
 }
 .suggestion-item {
     border-bottom: 2px solid black;
     border-radius: 10px;
-    height: 150px;
+    height: 300px;
     padding: 10px; 
-    width: 30%;
+    min-width: 30%;
     background: #DCDCDC;
+    margin-right: 10px;
+  }
+  .suggestion-title h4.view-all:hover {
+    cursor: pointer;
+    background: lightgray;
+    border-bottom: 3px solid red;
+    border-radius: 10px;
+    color: black;
+    padding: 7px;
   }
 
   /* FOOTER KISMI:*/
@@ -153,6 +182,7 @@ ul {
     flex-direction: row;
     gap:30px;
     justify-content: space-between;
+    color: white;
   }
  .alt {
     max-width: 70%;
@@ -163,7 +193,7 @@ ul {
  }
  .alt nav a  {
     text-decoration: none;
-    color: black;
+    color: white;
  }
  .copyright {
     font-size: 14px;
@@ -208,9 +238,12 @@ ul {
        margin-left:10px;
        width: 50%;
     }
+    header {
+        border-bottom: unset;
+    }
     header nav {
         position: relative;
-        top: 40px;
+        top: 30px;
         display: flex;
         justify-content: flex-end;
     }
@@ -218,18 +251,19 @@ ul {
         background: white;
         margin: unset;
         padding: 10px;
+        margin: 2px;
     }
     .header-icons {
         margin: unset;
     }
-    .input-field {
+    .input-search {
         width: 70px;
         margin-right: 0;
     }
     .hero-content {
         padding: 20px 30% 20px 15px;
         margin:22px;
-       
+        min-height: unset;
     }
     .hero-content p {
         font-size: 20px;
