@@ -1,322 +1,325 @@
 body {
-    max-width:95%;
-    margin: auto;
-    box-sizing: border-box;
-    background-color: #332e2e;
+  max-width: 95%;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: #332e2e;
 }
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 1px solid white;
-    width: 100%;
-    height: 75px;
-    margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  width: 100%;
+  height: 75px;
+  margin-top: 5px;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Trebuchet MS";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Trebuchet MS";
 }
-p{
-    font-family: "brush script mt";
-    font-size: 15px;
+p {
+  font-family: "brush script mt";
+  font-size: 15px;
 }
 .logo {
-   width: 100%;
-   max-height: 50px;
-   margin: 15px 0;
-   min-width: 120px;
+  width: 100%;
+  max-height: 50px;
+  margin: 15px 0;
+  min-width: 120px;
 }
 .fa-bell {
-    color: white;
+  color: white;
 }
 .fa-bell:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 header nav {
-    display: flex;
-    align-items: center;
-    margin: 0 30px;
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
 }
 header nav a {
-    font-size: 15px;
-    text-decoration: none;
-    text-wrap: nowrap;
-    color: lightgray;
-    margin: 10px;
-    padding: 7px;
-    font-family: "Trebuchet MS";
+  font-size: 15px;
+  text-decoration: none;
+  text-wrap: nowrap;
+  color: lightgray;
+  margin: 10px;
+  padding: 7px;
+  font-family: "Trebuchet MS";
 }
 header nav a:hover {
-    border-bottom: 3px solid red;
-    color: white;
+  border-bottom: 3px solid red;
+  color: white;
 }
 .header-icons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 20px;
 }
 .search-input {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .input-search {
-    width: 100%;
-    border-radius: 10px;
-    padding: 3px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 3px;
 }
 .fa-search {
-    position: relative; 
-    right: 25px;
-    margin:2px;
-    color: #DCDCDC;
+  position: relative;
+  right: 25px;
+  margin: 2px;
+  color: #dcdcdc;
 }
 .profil-icon {
-    border: 2px solid black;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 15px;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 15px;
 }
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  /* width */
+/* Firefox */
+/* width */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #5b5b5b; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #3f3f3f; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #272727; 
-  }
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #5b5b5b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3f3f3f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #272727;
+}
 
 /* MAIN KISMI:*/
 
 .main-section {
-    background-size: cover;
-    margin: 12px 3px;
-    border-radius: 15px;
-    border-bottom: 5px solid #ff0000;
-    box-shadow: inset 17px 16px 20px 0px #00000036;
+  background-size: cover;
+  margin: 12px 3px;
+  border-radius: 15px;
+  border-bottom: 5px solid #ff0000;
+  box-shadow: inset 17px 16px 20px 0px #00000036;
 }
 .hero-content {
-    padding: 40px 50% 20px 15px;
-    min-height: 530px;
-    box-shadow: inset 0px 0 12px 5px #0000008a;
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
+  padding: 40px 50% 20px 15px;
+  min-height: 530px;
+  box-shadow: inset 0px 0 12px 5px #0000008a;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
 }
-.user-ratings span{
-    margin-right: 10px;
+.user-ratings span {
+  margin-right: 10px;
 }
 .fa-star {
-    color: red;
+  color: red;
 }
 .maturity-rating {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2px;
 }
 .duration {
-    font-weight: bold;
+  font-weight: bold;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 .movie-details {
-   padding-left: 0;
+  padding-left: 0;
 }
 .red-texts {
-    color: red;
+  color: red;
 }
 .bold-texts {
-    font-weight: bold;
+  font-weight: bold;
 }
 .btn {
-    display: inline-block;
-    background: red;
-    border: 5px solid red;
-    border-radius: 10px;
-    color: white;
-    padding: 10px 10px;
-    font-size: 15px;
-    font-weight: bold;
+  display: inline-block;
+  background: red;
+  border: 5px solid red;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
 }
 .btn:hover {
-    box-shadow: 4px 4px black;
-    cursor: pointer;
+  box-shadow: 4px 4px black;
+  cursor: pointer;
 }
 .fa-play {
-    margin-right: 10px;      
+  margin-right: 10px;
 }
 
 /* SECTION KISMI:*/
 
 .suggestion-title {
-    color: white;
-    display: flex;
-    justify-content: space-between;
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
 .suggestion-title h4 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .suggestion-content {
-    display: flex;
-    justify-content: space-between;
-    overflow-x: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
 }
 .suggestion-item {
-    border-bottom: 2px solid black;
-    border-radius: 10px;
-    height: 300px;
-    padding: 10px; 
-    min-width: 30%;
-    background-size:cover;
-    background-position: bottom;
-    margin-right: 10px;
+  border-bottom: 2px solid black;
+  border-radius: 10px;
+  height: 300px;
+  padding: 10px;
+  min-width: 30%;
+  background-size: cover;
+  background-position: bottom;
+  margin-right: 10px;
 }
 .suggestion-title h4 {
-    font-size: 18px;
+  font-size: 18px;
 }
 .suggestion-title h4.view-all:hover {
-    cursor: pointer;
-    border-bottom: 3px solid red;
-    padding: 7px;
-  }
+  cursor: pointer;
+  border-bottom: 3px solid red;
+  padding: 7px;
+}
 .suggestion-item-content h1 {
-    max-width:150px;
-    font-size: 20px;
- }
-  /* FOOTER KISMI:*/
+  max-width: 150px;
+  font-size: 20px;
+}
+/* FOOTER KISMI:*/
 
-  .footer {
-    margin-top: 60px;
-    margin-bottom: 60px;
-    display:flex;
-    flex-direction: row;
-    gap:30px;
-    justify-content: space-between;
-    color: white;
+.footer {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  color: white;
+}
+.alt {
+  max-width: 70%;
+}
+.alt nav {
+  display: flex;
+  gap: 40px;
+}
+.alt nav a {
+  text-decoration: none;
+  color: white;
+}
+.copyright {
+  font-size: 14px;
+}
+.follow-us-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.follow-us-icons a img {
+  max-width: 25px;
+  border-radius: 5px;
+}
+.linkler {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.follow-us p {
+  margin-top: 0;
+}
+.apps-icons {
+  display: flex;
+  gap: 10px;
+}
+.apps-icons a img {
+  max-width: 100px;
+  border-radius: 10px;
+}
+.apps p {
+  margin-top: 0;
+}
+
+/* MEDIA QUERY KISMI:*/
+
+@media (max-width: 768px) {
+  body {
+    max-width: unset;
+    width: fit-content;
   }
- .alt {
-    max-width: 70%;
- }
- .alt nav {
+  .logo {
+    margin-left: 10px;
+    width: 50%;
+  }
+  header {
+    border-bottom: unset;
+  }
+  header nav {
+    position: relative;
+    top: 30px;
     display: flex;
-    gap:40px;
- }
- .alt nav a  {
-    text-decoration: none;
-    color: white;
- }
- .copyright {
-    font-size: 14px;
- }
- .follow-us-icons {
-    display: flex;
-    flex-direction: row;
-    gap:10px;
- }
- .follow-us-icons a img{
-    max-width: 25px;
-    border-radius: 5px;
- }
- .linkler{ 
-    width: 100%;
-    display: flex;
-    justify-content: space-between; 
- }
- .follow-us p {
+    justify-content: flex-end;
+  }
+  header nav a {
+    margin: unset;
+    padding: 10px;
+    margin: 2px;
+  }
+  .header-icons {
+    margin: unset;
+  }
+  .input-search {
+    width: 70px;
+    margin-right: 0;
+  }
+  .hero-content {
+    padding: 20px 30% 20px 15px;
+    margin: 22px;
+    min-height: unset;
+  }
+  .hero-content p {
+    font-size: 20px;
+  }
+  .suggestion-row {
+    margin: 10px;
+  }
+  .suggestion-title h4 {
     margin-top: 0;
- }
- .apps-icons {
+  }
+  .suggestion-content {
+    gap: 5px;
+  }
+  .footer {
+    margin: 10px;
     display: flex;
-    gap:10px;
- }
- .apps-icons a img {
-    max-width: 100px;
-    border-radius: 10px;
- }
- .apps p {
-    margin-top: 0;
- }
-
-  /* MEDIA QUERY KISMI:*/
-
- @media(max-width: 768px) {
-    body {
-        max-width: unset;
-        width: fit-content;
-    }
-    .logo {
-       margin-left:10px;
-       width: 50%;
-    }
-    header {
-        border-bottom: unset;
-    }
-    header nav {
-        position: relative;
-        top: 30px;
-        display: flex;
-        justify-content: flex-end;
-    }
-    header nav a {
-        background: white;
-        margin: unset;
-        padding: 10px;
-        margin: 2px;
-    }
-    .header-icons {
-        margin: unset;
-    }
-    .input-search {
-        width: 70px;
-        margin-right: 0;
-    }
-    .hero-content {
-        padding: 20px 30% 20px 15px;
-        margin:22px;
-        min-height: unset;
-    }
-    .hero-content p {
-        font-size: 20px;
-    }
-    .suggestion-row {
-       margin:10px;
-
-    }
-    .suggestion-title h4 {
-        margin-top: 0;
-    }
-    .suggestion-content {
-        gap: 5px;
-    }
-    .footer {
-        margin: 10px;
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-    }
-    .alt {
-        max-width: 100%;
-        margin-top: 35px;
-    }
+    flex-direction: column;
+    gap: 0;
+  }
+  .alt {
+    max-width: 100%;
+    margin-top: 35px;
+  }
   .linkler {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 20px;
   }
- }
+}
